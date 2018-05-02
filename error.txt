@@ -1,0 +1,14 @@
+Job [s_30] submitted successfully.
+Your job is still active. You may view the status of your job with the command
+
+  $ gcloud ml-engine jobs describe s_30
+
+or continue streaming the logs with the command
+
+  $ gcloud ml-engine jobs stream-logs s_30
+ERROR: (gcloud.ml-engine.jobs.submit.prediction) FAILED_PRECONDITION: Field: uri Error: Deployment directory gs://bucket-25/training/export/census/1524737041/saved_model.pb/ is expected to contain exactly one of: [saved_model.pb, saved_model.pbtxt].
+- '@type': type.googleapis.com/google.rpc.BadRequest
+  fieldViolations:
+  - description: 'Deployment directory gs://bucket-25/training/export/census/1524737041/saved_model.pb/
+      is expected to contain exactly one of: [saved_model.pb, saved_model.pbtxt].'
+    field: uri
