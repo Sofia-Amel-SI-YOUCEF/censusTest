@@ -29,7 +29,7 @@ CSV_COLUMNS = ['age', 'workclass', 'fnlwgt', 'education', 'education_num',
 CSV_COLUMN_DEFAULTS = [[0], [''], [0], [''], [0], [''], [''], [''], [''], [''],
                        [0], [0], [0], [''], ['']]
 LABEL_COLUMN = 'income_bracket'
-LABELS = [' <=50K', ' >50K']
+LABELS = [' yes', ' no']
 
 # Define the initial ingestion of each feature used by your model.
 # Additionally, provide metadata about the feature.
